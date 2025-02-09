@@ -32,15 +32,16 @@ int main() {
         {
             tabuleiro2[i][j] = sem_barco;
             
-            tabuleiro2[9][0] = com_barco3;
-            tabuleiro2[8][1] = com_barco3;
-            tabuleiro2[7][2] = com_barco3;
-            tabuleiro2[6][3] = com_barco3;
+            
             
             for (int k = 0, l = 0; k < BARCOS, l < BARCOS; k++, l++)
             {
                 tabuleiro2[k][5] = com_barco1;
                 tabuleiro2[4][l] = com_barco2;
+                tabuleiro2[9][0] = com_barco3;
+                tabuleiro2[8][1] = com_barco3;
+                tabuleiro2[7][2] = com_barco3;
+                tabuleiro2[6][3] = com_barco3;
             }
             
             printf("%d ", tabuleiro2[i][j]);
